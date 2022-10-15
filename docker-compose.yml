@@ -11,7 +11,7 @@ services:
       MARIADB_USER: "PULSKWA"
       MARIADB_PASSWORD: "EinZwei"
       MARIADB_ROOT_PASSWORD: "EinZweiDrei" 
-      
+      MYSQL_DATABASE: "./SQL/Bieda_database.sql" 
     networks:
       lb_example:
         ipv4_address: 172.28.0.19
